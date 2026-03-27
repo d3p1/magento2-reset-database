@@ -5,6 +5,6 @@
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Bina_ResetDatabase',
+    'D3p1_ResetDatabase',
     __DIR__
 );

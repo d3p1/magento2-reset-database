@@ -3,7 +3,7 @@
  * @description Reset database command helper
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-namespace Bina\ResetDatabase\Helper\Console\Command;
+namespace D3p1\ResetDatabase\Helper\Console\Command;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Customer\Model\Customer;

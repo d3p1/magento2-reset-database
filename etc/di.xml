@@ -9,7 +9,7 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="bina_reset_database" xsi:type="object">Bina\ResetDatabase\Console\Command\ResetDatabaseCommand</item>
+                <item name="d3p1_reset_database" xsi:type="object">D3p1\ResetDatabase\Console\Command\ResetDatabaseCommand</item>
             </argument>
         </arguments>
     </type>

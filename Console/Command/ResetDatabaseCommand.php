@@ -3,7 +3,7 @@
  * @description Reset database command
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-namespace Bina\ResetDatabase\Console\Command;
+namespace D3p1\ResetDatabase\Console\Command;
 
 use InvalidArgumentException;
 use Symfony\Component\Console\Command\Command;
@@ -14,7 +14,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Magento\Framework\App\ResourceConnection;
 use Magento\Indexer\Model\IndexerFactory;
 use Magento\Indexer\Model\Indexer;
-use Bina\ResetDatabase\Helper\Console\Command\ResetDatabaseCommand as ResetDatabaseCommandHelper;
+use D3p1\ResetDatabase\Helper\Console\Command\ResetDatabaseCommand as ResetDatabaseCommandHelper;
 
 class ResetDatabaseCommand extends Command
 {
