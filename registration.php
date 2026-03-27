@@ -1,11 +1,7 @@
 <?php
 /**
- *
  * @description Module registration
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,

@@ -1,32 +1,14 @@
 <?xml version="1.0"?>
 <!--
 /**
- *
  * @description DI configuration
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <!--
-    /**
-     *
-     * @note Add commands
-     *
-     */
-    -->
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <!--
-                /**
-                 *
-                 * @note Reset database command
-                 *
-                 */
-                -->
                 <item name="bina_reset_database" xsi:type="object">Bina\ResetDatabase\Console\Command\ResetDatabaseCommand</item>
             </argument>
         </arguments>

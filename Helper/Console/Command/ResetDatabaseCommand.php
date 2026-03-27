@@ -1,11 +1,7 @@
 <?php
 /**
- *
  * @description Reset database command helper
- *
- * @author Bina Commerce      <https://www.binacommerce.com>
- * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
- *
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 namespace Bina\ResetDatabase\Helper\Console\Command;
 
@@ -22,86 +18,62 @@ use Magento\CatalogRule\Model\Indexer\Product\ProductRuleProcessor as ProductRul
 class ResetDatabaseCommand extends AbstractHelper
 {
     /**
-     *
      * @const CUSTOMER_ENTITY_KEY
-     *
      */
     const CUSTOMER_ENTITY_KEY = 'customer';
 
     /**
-     *
      * @const CATEGORY_ENTITY_KEY
-     *
      */
     const CATEGORY_ENTITY_KEY = 'category';
 
     /**
-     *
      * @const PRODUCT_ENTITY_KEY
-     *
      */
     const PRODUCT_ENTITY_KEY = 'product';
 
     /**
-     *
      * @const URL_REWRITE_KEY
-     *
      */
     const URL_REWRITE_KEY = 'url_rewrite';
 
     /**
-     *
      * @const CATALOGRULE_KEY
-     *
      */
     const CATALOGRULE_KEY = 'catalogrule';
 
     /**
-     *
      * @const CARTRULE_KEY
-     *
      */
     const CARTRULE_KEY = 'cartrule';
 
     /**
-     *
      * @const QUOTE_ENTITY_KEY
-     *
      */
     const QUOTE_ENTITY_KEY = 'quote';
 
     /**
-     *
      * @const ORDER_ENTITY_KEY
-     *
      */
     const ORDER_ENTITY_KEY = 'order';
 
     /**
-     *
      * @const DELETE_TABLE_DATA_KEY
-     *
      */
     const DELETE_TABLE_DATA_KEY = 'delete';
 
     /**
-     *
      * @const RESET_TABLE_AI_KEY
-     *
      */
     const RESET_TABLE_AI_KEY = 'reset_ai';
 
     /**
-     *
      * @const INDEXER_KEY
-     *
      */
     const INDEXER_KEY = 'indexer';
 
     /**
-     *
      * @var array
-     *
      */
     private $_entityTables = [
         self::CUSTOMER_ENTITY_KEY => [
@@ -290,11 +262,9 @@ class ResetDatabaseCommand extends AbstractHelper
     ];
 
     /**
-     *
      * Get available entities
      *
      * @return array
-     *
      */
     public function getAvailableEntities()
     {
@@ -302,13 +272,10 @@ class ResetDatabaseCommand extends AbstractHelper
     }
 
     /**
-     *
      * Get entity tables to delete their data
      *
-     * @param string $entity
-     *
+     * @param  string $entity
      * @return array
-     *
      */
     public function getTablesToDeleteDataFromEntity($entity)
     {
@@ -316,13 +283,10 @@ class ResetDatabaseCommand extends AbstractHelper
     }
 
     /**
-     *
      * Get entity tables to reset their auto increment key
      *
-     * @param string $entity
-     *
+     * @param  string $entity
      * @return array
-     *
      */
     public function getTablesToResetAutoIncrementKeyFromEntity($entity)
     {
@@ -330,13 +294,10 @@ class ResetDatabaseCommand extends AbstractHelper
     }
 
     /**
-     *
      * Get indexers from entity
      *
-     * @param string $entity
-     *
+     * @param  string $entity
      * @return array
-     *
      */
     public function getIndexersFromEntity($entity)
     {
