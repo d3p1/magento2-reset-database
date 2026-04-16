@@ -2,22 +2,19 @@
     "name": "d3p1/module-reset-database",
     "description": "Reset database",
     "type": "magento2-module",
-    "version": "1.1.0",
     "license": [
-        "OSL-3.0",
-        "AFL-3.0"
+        "MIT"
     ],
     "homepage": "https://www.d3p1.dev",
     "authors": [
         {
             "name": "C. M. de Picciotto",
             "email": "d3p1@d3p1.dev",
-            "homepage": "https://www.d3p1.dev",
-            "role": "Leader"
+            "homepage": "https://www.d3p1.dev"
         }
     ],
     "require": {
-        "php": "~7.0.13||~7.1.0||~7.2.0||~7.3.0||~7.4.0",
+        "php": "^7.0.0||^8.0.0",
         "magento/framework": "~101.0||~102.0||~103.0"
     },
     "autoload": {
