@@ -1,6 +1,6 @@
 {
   "name": "@d3p1/module-reset-database",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reset database",
   "private": true,
   "scripts": {
