@@ -2,4 +2,16 @@
 # @description Git ignore
 # @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
 ##
-.idea
+vendor/
+node_modules/
+.ssh/
+.bash_history
+.gitconfig
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
