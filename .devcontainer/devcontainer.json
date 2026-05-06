@@ -3,6 +3,6 @@
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 {
-  "name": "Dev",
-  "image": "d3p1/devcontainer-php-node:p8.1-n24.15"
+    "name": "Dev",
+    "image": "d3p1/devcontainer-php-node:p8.1-n24.15"
 }
