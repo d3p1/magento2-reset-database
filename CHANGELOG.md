@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/d3p1/magento2-reset-database/compare/v1.0.1...v1.0.2) (2026-05-06)
+
+
+### Bug Fixes
+
+* improve code style [[#1](https://github.com/d3p1/magento2-reset-database/issues/1)] ([4f6fd45](https://github.com/d3p1/magento2-reset-database/commit/4f6fd45cac5ac174617c988cfde53c7fefa20453))
+
 ## [1.0.1](https://github.com/d3p1/magento2-reset-database/compare/v1.0.0...v1.0.1) (2026-05-05)
 
 
